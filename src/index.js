@@ -51,6 +51,7 @@ ShortKey.decodeKey = (pKey) => {
   if (pKey.key === 'ArrowRight') { k += 'arrowright' }
   if (pKey.key === 'ArrowDown') { k += 'arrowdown' }
   if (pKey.key === 'AltGraph') { k += 'altgraph' }
+  if (pKey.key === 'Backspace') { k += 'backspace' }
   if (pKey.key === 'Escape') { k += 'esc' }
   if (pKey.key === 'Enter') { k += 'enter' }
   if (pKey.key === 'Tab') { k += 'tab' }
